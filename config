@@ -148,10 +148,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+M move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -160,10 +160,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+Shift+s split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+Shift+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -273,11 +273,11 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute && killall -US
 bindsym XF86AudioMute exec amixer -q set Master toggle && killall -SIGUSR1 i3status
 
 # Brightness control
-bindsym $mod+F9 exec ~/.config/i3/brightness.sh up
-bindsym $mod+F8 exec ~/.config/i3/brightness.sh down
+#bindsym $mod+F9 exec ~/.config/i3/brightness.sh up
+#bindsym $mod+F8 exec ~/.config/i3/brightness.sh down
 
-bindsym $mod+Shift+Z exec ~/.config/i3/brightness.sh up
-bindsym $mod+Shift+S exec ~/.config/i3/brightness.sh down
+#bindsym $mod+Shift+Z exec ~/.config/i3/brightness.sh up
+#bindsym $mod+Shift+S exec ~/.config/i3/brightness.sh down
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
