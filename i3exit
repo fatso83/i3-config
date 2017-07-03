@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    i3lock -i /home/jsanchezpando/.config/i3/keep-calm-and-make-coffee.png -n
+    i3lock -i $HOME/.config/i3/keep-calm-and-make-coffee.png -n
 }
 
 case "$1" in
