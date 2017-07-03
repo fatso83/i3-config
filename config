@@ -64,6 +64,8 @@ exec ~/.config/i3/keyboard-layout.sh
 #exec evolution
 #exec deja-dup --backup
 #exec xchat
+exec i3-sensible-terminal
+exec google-chrome
 
 # Screensaver and Power Management
 exec xset dpms 300
