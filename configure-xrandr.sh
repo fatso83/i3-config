@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+# Not used in my fork!
+exit 0
+
 PRIMARY="LVDS-0"
 EXT1="DP-1"
 EXT2="VGA-0"

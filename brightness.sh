@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# not used in my fork!
+exit 0
+
 max_brightness=$(cat /sys/class/backlight/acpi_video0/max_brightness)
 brightness=$(cat /sys/class/backlight/acpi_video0/brightness)
 
