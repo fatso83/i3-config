@@ -38,7 +38,9 @@ font pango:DejaVu Sans Mono 12
 exec_always xrdb -load ~/.config/i3/Xresources
 
 # setup ssh
-exec ~/.config/i3/start-gnome-integration.sh
+#exec ~/.config/i3/start-gnome-integration.sh
+#exec --no-startup-id /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+exec --no-startup-id gnome-settings-daemon
 
 # notification daemon
 exec dunst -config ~/.config/i3/dunst
@@ -65,7 +67,6 @@ exec ~/.config/i3/keyboard-layout.sh
 #exec deja-dup --backup
 #exec xchat
 exec i3-sensible-terminal
-exec google-chrome
 
 # Screensaver and Power Management
 exec xset dpms 300
