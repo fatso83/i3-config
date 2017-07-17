@@ -132,7 +132,8 @@ bindsym $mod+Shift+A kill
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+d exec synapse
+#bindsym $mod+d exec synapse
+bindsym $mod+d exec dmenu_run
 # bindsym $mod+space exec synapse
 bindsym $mod+Shift+D exec thunar
 
