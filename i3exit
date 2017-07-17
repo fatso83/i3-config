@@ -1,6 +1,8 @@
 #!/bin/sh
 lock() {
-    i3lock -i $HOME/.config/i3/keep-calm-and-make-coffee.png -n
+    # dropping "-n" will make it fork so that it can 
+    # be chained in commands
+    i3lock -i $HOME/.config/i3/keep-calm-and-make-coffee.png
 }
 
 case "$1" in
